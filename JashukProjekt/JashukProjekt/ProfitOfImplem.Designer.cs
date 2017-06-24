@@ -51,7 +51,7 @@
             0,
             0,
             0});
-            this.profit.Location = new System.Drawing.Point(176, 12);
+            this.profit.Location = new System.Drawing.Point(90, 36);
             this.profit.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -70,7 +70,7 @@
             0,
             0,
             0});
-            this.cost.Location = new System.Drawing.Point(176, 57);
+            this.cost.Location = new System.Drawing.Point(90, 81);
             this.cost.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -89,7 +89,7 @@
             0,
             0,
             0});
-            this.reven.Location = new System.Drawing.Point(176, 105);
+            this.reven.Location = new System.Drawing.Point(90, 129);
             this.reven.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -122,7 +122,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 14);
+            this.label1.Location = new System.Drawing.Point(100, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 13);
             this.label1.TabIndex = 4;
@@ -131,7 +131,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 59);
+            this.label2.Location = new System.Drawing.Point(94, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 5;
@@ -140,7 +140,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(31, 107);
+            this.label3.Location = new System.Drawing.Point(75, 113);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 13);
             this.label3.TabIndex = 6;
@@ -158,7 +158,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(197, 321);
+            this.button2.Location = new System.Drawing.Point(197, 317);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
@@ -171,7 +171,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(284, 356);
+            this.ClientSize = new System.Drawing.Size(284, 352);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);

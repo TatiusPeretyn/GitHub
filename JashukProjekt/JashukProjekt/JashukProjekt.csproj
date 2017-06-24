@@ -75,6 +75,7 @@
     <Compile Include="Bled.Designer.cs">
       <DependentUpon>Bled.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dane\TotaLinne.cs" />
     <Compile Include="MainMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +192,7 @@
     <EmbeddedResource Include="TotalProf.resx">
       <DependentUpon>TotalProf.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\JashukProjekt.Dane.TotaLinne.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

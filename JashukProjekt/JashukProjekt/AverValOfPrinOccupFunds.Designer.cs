@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.reven = new System.Windows.Forms.NumericUpDown();
             this.aver = new System.Windows.Forms.NumericUpDown();
             this.total = new System.Windows.Forms.NumericUpDown();
+            this.totaLinneBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -38,6 +40,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.reven)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.aver)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.total)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totaLinneBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // reven
@@ -48,7 +51,7 @@
             0,
             0,
             0});
-            this.reven.Location = new System.Drawing.Point(152, 28);
+            this.reven.Location = new System.Drawing.Point(88, 35);
             this.reven.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -67,7 +70,7 @@
             0,
             0,
             0});
-            this.aver.Location = new System.Drawing.Point(152, 85);
+            this.aver.Location = new System.Drawing.Point(88, 85);
             this.aver.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -80,13 +83,14 @@
             // 
             // total
             // 
+            this.total.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.totaLinneBindingSource, "TotalFun", true));
             this.total.DecimalPlaces = 2;
             this.total.Increment = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            this.total.Location = new System.Drawing.Point(87, 236);
+            this.total.Location = new System.Drawing.Point(88, 227);
             this.total.Maximum = new decimal(new int[] {
             1000000000,
             0,
@@ -97,10 +101,14 @@
             this.total.TabIndex = 2;
             this.total.ThousandsSeparator = true;
             // 
+            // totaLinneBindingSource
+            // 
+            this.totaLinneBindingSource.DataSource = typeof(JashukProjekt.Dane.TotaLinne);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 35);
+            this.label1.Location = new System.Drawing.Point(120, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 3;
@@ -109,7 +117,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 69);
+            this.label2.Location = new System.Drawing.Point(50, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(211, 13);
             this.label2.TabIndex = 4;
@@ -154,6 +162,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.reven)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.aver)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.total)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totaLinneBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,10 +172,11 @@
 
         private System.Windows.Forms.NumericUpDown reven;
         private System.Windows.Forms.NumericUpDown aver;
-        private System.Windows.Forms.NumericUpDown total;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.BindingSource totaLinneBindingSource;
+        public System.Windows.Forms.NumericUpDown total;
     }
 }

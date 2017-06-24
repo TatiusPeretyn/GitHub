@@ -43,7 +43,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Location = new System.Drawing.Point(114, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 57);
+            this.label2.Location = new System.Drawing.Point(100, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 13);
             this.label2.TabIndex = 1;
@@ -66,16 +66,17 @@
             0,
             0,
             0});
-            this.net.Location = new System.Drawing.Point(194, 11);
+            this.net.Location = new System.Drawing.Point(84, 45);
             this.net.Maximum = new decimal(new int[] {
             10000000,
             0,
             0,
             0});
             this.net.Name = "net";
-            this.net.Size = new System.Drawing.Size(78, 20);
+            this.net.Size = new System.Drawing.Size(121, 20);
             this.net.TabIndex = 2;
             this.net.ThousandsSeparator = true;
+            this.net.ValueChanged += new System.EventHandler(this.net_ValueChanged);
             // 
             // button1
             // 
@@ -89,7 +90,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(197, 313);
+            this.button2.Location = new System.Drawing.Point(197, 317);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
@@ -105,16 +106,17 @@
             0,
             0,
             0});
-            this.assets.Location = new System.Drawing.Point(194, 55);
+            this.assets.Location = new System.Drawing.Point(84, 95);
             this.assets.Maximum = new decimal(new int[] {
             10000000,
             0,
             0,
             0});
             this.assets.Name = "assets";
-            this.assets.Size = new System.Drawing.Size(78, 20);
+            this.assets.Size = new System.Drawing.Size(121, 20);
             this.assets.TabIndex = 7;
             this.assets.ThousandsSeparator = true;
+            this.assets.ValueChanged += new System.EventHandler(this.assets_ValueChanged);
             // 
             // total
             // 
@@ -124,14 +126,14 @@
             0,
             0,
             0});
-            this.total.Location = new System.Drawing.Point(103, 191);
+            this.total.Location = new System.Drawing.Point(84, 191);
             this.total.Maximum = new decimal(new int[] {
             10000000,
             0,
             0,
             0});
             this.total.Name = "total";
-            this.total.Size = new System.Drawing.Size(78, 20);
+            this.total.Size = new System.Drawing.Size(121, 20);
             this.total.TabIndex = 8;
             this.total.ThousandsSeparator = true;
             // 
@@ -140,7 +142,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(284, 348);
+            this.ClientSize = new System.Drawing.Size(284, 352);
             this.Controls.Add(this.total);
             this.Controls.Add(this.assets);
             this.Controls.Add(this.button2);

@@ -43,3 +43,4 @@ C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjek
 C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.Bled.resources
 C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.Bled.resources
 C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.Personell.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.Personell.resources

@@ -50,7 +50,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(12, 110);
+            this.label1.Location = new System.Drawing.Point(64, 78);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 15);
             this.label1.TabIndex = 3;
@@ -60,7 +60,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(12, 146);
+            this.label2.Location = new System.Drawing.Point(71, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 15);
             this.label2.TabIndex = 4;
@@ -70,7 +70,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(12, 181);
+            this.label3.Location = new System.Drawing.Point(81, 183);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(122, 15);
             this.label3.TabIndex = 5;
@@ -84,7 +84,7 @@
             0,
             0,
             0});
-            this.PrimePrice.Location = new System.Drawing.Point(184, 110);
+            this.PrimePrice.Location = new System.Drawing.Point(84, 96);
             this.PrimePrice.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -113,7 +113,7 @@
             0,
             0,
             0});
-            this.AdminCharges.Location = new System.Drawing.Point(184, 146);
+            this.AdminCharges.Location = new System.Drawing.Point(84, 148);
             this.AdminCharges.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -142,7 +142,7 @@
             0,
             0,
             0});
-            this.CommercialCharges.Location = new System.Drawing.Point(184, 181);
+            this.CommercialCharges.Location = new System.Drawing.Point(84, 201);
             this.CommercialCharges.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -154,7 +154,7 @@
             0,
             0});
             this.CommercialCharges.Name = "CommercialCharges";
-            this.CommercialCharges.Size = new System.Drawing.Size(120, 20);
+            this.CommercialCharges.Size = new System.Drawing.Size(119, 20);
             this.CommercialCharges.TabIndex = 8;
             this.CommercialCharges.ThousandsSeparator = true;
             this.CommercialCharges.Value = new decimal(new int[] {
@@ -165,7 +165,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(125, 214);
+            this.button1.Location = new System.Drawing.Point(106, 243);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 9;
@@ -175,7 +175,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(229, 315);
+            this.button2.Location = new System.Drawing.Point(197, 320);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 20);
             this.button2.TabIndex = 11;
@@ -186,14 +186,14 @@
             // total
             // 
             this.total.DecimalPlaces = 2;
-            this.total.Location = new System.Drawing.Point(102, 255);
+            this.total.Location = new System.Drawing.Point(84, 272);
             this.total.Maximum = new decimal(new int[] {
             1215752192,
             23,
             0,
             0});
             this.total.Name = "total";
-            this.total.Size = new System.Drawing.Size(120, 20);
+            this.total.Size = new System.Drawing.Size(119, 20);
             this.total.TabIndex = 12;
             this.total.ThousandsSeparator = true;
             this.total.Value = new decimal(new int[] {
@@ -206,7 +206,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(12, 73);
+            this.label4.Location = new System.Drawing.Point(81, 25);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(110, 15);
             this.label4.TabIndex = 13;
@@ -220,7 +220,7 @@
             0,
             0,
             0});
-            this.GeneralProfit.Location = new System.Drawing.Point(184, 73);
+            this.GeneralProfit.Location = new System.Drawing.Point(84, 43);
             this.GeneralProfit.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -246,7 +246,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(316, 347);
+            this.ClientSize = new System.Drawing.Size(284, 352);
             this.Controls.Add(this.GeneralProfit);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.total);

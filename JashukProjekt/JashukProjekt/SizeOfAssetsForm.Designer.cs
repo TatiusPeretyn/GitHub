@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,16 +38,20 @@
             this.total = new System.Windows.Forms.NumericUpDown();
             this.assets = new System.Windows.Forms.NumericUpDown();
             this.fund = new System.Windows.Forms.NumericUpDown();
+            this.totaLinneBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.totaLinneBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.means)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.total)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.assets)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fund)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totaLinneBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totaLinneBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 30);
+            this.label1.Location = new System.Drawing.Point(56, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(161, 13);
             this.label1.TabIndex = 0;
@@ -55,7 +60,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 69);
+            this.label2.Location = new System.Drawing.Point(84, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 13);
             this.label2.TabIndex = 1;
@@ -64,7 +69,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 111);
+            this.label3.Location = new System.Drawing.Point(42, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(200, 13);
             this.label3.TabIndex = 2;
@@ -72,7 +77,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(91, 195);
+            this.button1.Location = new System.Drawing.Point(80, 209);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 36);
             this.button1.TabIndex = 3;
@@ -82,7 +87,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(185, 308);
+            this.button2.Location = new System.Drawing.Point(197, 317);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
@@ -92,20 +97,21 @@
             // 
             // means
             // 
+            this.means.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.totaLinneBindingSource, "TotalAnother", true));
             this.means.DecimalPlaces = 2;
             this.means.Increment = new decimal(new int[] {
             100,
             0,
             0,
             0});
-            this.means.Location = new System.Drawing.Point(185, 28);
+            this.means.Location = new System.Drawing.Point(80, 47);
             this.means.Maximum = new decimal(new int[] {
             100000000,
             0,
             0,
             0});
             this.means.Name = "means";
-            this.means.Size = new System.Drawing.Size(87, 20);
+            this.means.Size = new System.Drawing.Size(121, 20);
             this.means.TabIndex = 9;
             this.means.ThousandsSeparator = true;
             this.means.Value = new decimal(new int[] {
@@ -113,6 +119,8 @@
             0,
             0,
             0});
+            this.means.ValueChanged += new System.EventHandler(this.means_ValueChanged);
+            this.means.Click += new System.EventHandler(this.means_Click);
             // 
             // total
             // 
@@ -122,14 +130,14 @@
             0,
             0,
             0});
-            this.total.Location = new System.Drawing.Point(105, 237);
+            this.total.Location = new System.Drawing.Point(80, 251);
             this.total.Maximum = new decimal(new int[] {
             1000000000,
             0,
             0,
             0});
             this.total.Name = "total";
-            this.total.Size = new System.Drawing.Size(87, 20);
+            this.total.Size = new System.Drawing.Size(121, 20);
             this.total.TabIndex = 10;
             this.total.ThousandsSeparator = true;
             // 
@@ -141,14 +149,14 @@
             0,
             0,
             0});
-            this.assets.Location = new System.Drawing.Point(185, 67);
+            this.assets.Location = new System.Drawing.Point(80, 98);
             this.assets.Maximum = new decimal(new int[] {
             100000000,
             0,
             0,
             0});
             this.assets.Name = "assets";
-            this.assets.Size = new System.Drawing.Size(87, 20);
+            this.assets.Size = new System.Drawing.Size(121, 20);
             this.assets.TabIndex = 11;
             this.assets.ThousandsSeparator = true;
             this.assets.Value = new decimal(new int[] {
@@ -159,20 +167,21 @@
             // 
             // fund
             // 
+            this.fund.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.totaLinneBindingSource1, "TotalFun", true));
             this.fund.DecimalPlaces = 2;
             this.fund.Increment = new decimal(new int[] {
             100,
             0,
             0,
             0});
-            this.fund.Location = new System.Drawing.Point(185, 127);
+            this.fund.Location = new System.Drawing.Point(80, 158);
             this.fund.Maximum = new decimal(new int[] {
             100000000,
             0,
             0,
             0});
             this.fund.Name = "fund";
-            this.fund.Size = new System.Drawing.Size(87, 20);
+            this.fund.Size = new System.Drawing.Size(121, 20);
             this.fund.TabIndex = 12;
             this.fund.ThousandsSeparator = true;
             this.fund.Value = new decimal(new int[] {
@@ -180,13 +189,23 @@
             0,
             0,
             0});
+            this.fund.ValueChanged += new System.EventHandler(this.fund_ValueChanged);
+            this.fund.Click += new System.EventHandler(this.fund_Click);
+            // 
+            // totaLinneBindingSource
+            // 
+            this.totaLinneBindingSource.DataSource = typeof(JashukProjekt.Dane.TotaLinne);
+            // 
+            // totaLinneBindingSource1
+            // 
+            this.totaLinneBindingSource1.DataSource = typeof(JashukProjekt.Dane.TotaLinne);
             // 
             // SizeOfAssetsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(284, 343);
+            this.ClientSize = new System.Drawing.Size(284, 352);
             this.Controls.Add(this.fund);
             this.Controls.Add(this.assets);
             this.Controls.Add(this.total);
@@ -203,6 +222,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.total)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.assets)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fund)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totaLinneBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totaLinneBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,5 +240,7 @@
         private System.Windows.Forms.NumericUpDown total;
         private System.Windows.Forms.NumericUpDown assets;
         private System.Windows.Forms.NumericUpDown fund;
+        private System.Windows.Forms.BindingSource totaLinneBindingSource;
+        private System.Windows.Forms.BindingSource totaLinneBindingSource1;
     }
 }

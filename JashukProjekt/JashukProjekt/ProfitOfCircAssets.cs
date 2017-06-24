@@ -39,5 +39,15 @@ namespace JashukProjekt
                 bled.Show();
             }
         }
+
+        private void assets_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void net_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

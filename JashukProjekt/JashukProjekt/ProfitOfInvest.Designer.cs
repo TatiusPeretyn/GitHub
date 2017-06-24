@@ -46,7 +46,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Location = new System.Drawing.Point(115, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 49);
+            this.label2.Location = new System.Drawing.Point(61, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(177, 13);
             this.label2.TabIndex = 1;
@@ -64,7 +64,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 104);
+            this.label3.Location = new System.Drawing.Point(61, 132);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(177, 13);
             this.label3.TabIndex = 2;
@@ -72,7 +72,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(197, 320);
+            this.button1.Location = new System.Drawing.Point(197, 317);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -82,7 +82,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(95, 218);
+            this.button2.Location = new System.Drawing.Point(95, 233);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(91, 23);
             this.button2.TabIndex = 4;
@@ -98,7 +98,7 @@
             0,
             0,
             0});
-            this.netProf.Location = new System.Drawing.Point(181, 11);
+            this.netProf.Location = new System.Drawing.Point(100, 39);
             this.netProf.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -117,7 +117,7 @@
             0,
             0,
             0});
-            this.passive.Location = new System.Drawing.Point(181, 65);
+            this.passive.Location = new System.Drawing.Point(100, 93);
             this.passive.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -136,7 +136,7 @@
             0,
             0,
             0});
-            this.funds.Location = new System.Drawing.Point(181, 120);
+            this.funds.Location = new System.Drawing.Point(100, 148);
             this.funds.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -171,7 +171,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(284, 355);
+            this.ClientSize = new System.Drawing.Size(284, 352);
             this.Controls.Add(this.total);
             this.Controls.Add(this.funds);
             this.Controls.Add(this.passive);

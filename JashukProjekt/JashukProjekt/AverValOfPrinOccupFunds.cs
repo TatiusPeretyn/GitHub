@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using JashukProjekt.Dane;
 
 namespace JashukProjekt
 {
     public partial class AverValOfPrinOccupFunds : Form
     {
+        private TotaLinne inne = new TotaLinne();
         public AverValOfPrinOccupFunds()
         {
             InitializeComponent();
@@ -31,6 +33,7 @@ namespace JashukProjekt
             if ( Aver != 0)
             {
                 double Answer = Reven / Aver;
+                inne.TotalFun = Answer;
                 total.Text = Convert.ToString(Math.Round(Answer, 2));//вывод в форме total c округлением до двух знаков после запятой
             }
             else
