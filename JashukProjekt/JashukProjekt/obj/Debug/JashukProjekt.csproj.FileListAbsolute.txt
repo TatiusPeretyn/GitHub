@@ -1,0 +1,45 @@
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\bin\Debug\JashukProjekt.exe.config
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\bin\Debug\JashukProjekt.exe
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\bin\Debug\JashukProjekt.pdb
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.csprojResolveAssemblyReference.cache
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.About.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.StartForm.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.Properties.Resources.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.csproj.GenerateResource.Cache
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.exe
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.pdb
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.MainMenuForm.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.BalanceForme.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.SizeOfAssetsForm.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ProfitOfCircAssets.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ProfitOfInvest.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ReturnOnAssets.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ProfitOfImplem.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.AverValOfPrinOccupFunds.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.AverValOfWorkCap.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ProfOfBus.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.TotalProf.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\bin\Debug\JashukProjekt.exe.config
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\bin\Debug\JashukProjekt.exe
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\bin\Debug\JashukProjekt.pdb
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.csprojResolveAssemblyReference.cache
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.About.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.AverValOfPrinOccupFunds.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.AverValOfWorkCap.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.BalanceForme.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.MainMenuForm.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ProfitOfCircAssets.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ProfitOfImplem.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ProfitOfInvest.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ProfOfBus.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.ReturnOnAssets.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.SizeOfAssetsForm.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.StartForm.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.Properties.Resources.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.TotalProf.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.csproj.GenerateResource.Cache
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.exe
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.pdb
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.Bled.resources
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.Bled.resources
+C:\Users\Tatius\Documents\Visual Studio 2017\Projects\JashukProjekt\JashukProjekt\obj\Debug\JashukProjekt.Personell.resources
