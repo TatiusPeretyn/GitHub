@@ -1,0 +1,5 @@
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
+C:\Users\LuckyFM\VisualStudio\JashukProjekt\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
